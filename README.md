@@ -13,6 +13,7 @@ armadillo-rollers
 cloth-ball
 cloth-funnel
 n-body-simulation
+puffer-ball
 rod-twist
 ```
 
