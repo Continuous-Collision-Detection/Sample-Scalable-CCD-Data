@@ -1,5 +1,7 @@
 # (Sample) Scalable CCD Ground Truth Data
 
+![](teaser.png)
+
 This repository contains sample ground truth data for "Time of Impact Dataset for Continuous Collision Detection and a Scalable Conservative Algorithm."
 
 > :notebook: The full dataset will be released soon.
