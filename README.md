@@ -97,21 +97,21 @@ which indicates neither of the queries in `armadillo-rollers/queries/3ee.csv` co
 
 ## Mathematica Generated Roots
 
-The `roots` folder contains a series of `.tar.gz` files. Each `.tar.gz` file contains multiple `.mx` Mathematica files. There is one `.mx` file per colliding query (hence some of the `.tar.gz` files are empty because no collision occurs). These `.mx` files contain the **valid** symbolic roots of the time of impact equation for the corresponding query. They can be opened in Mathematica using `roots = Import["path/to/file.mx"];`.
+The `roots` folder contains a series of `.tar.gz` files. Each `.tar.gz` file contains multiple `.wxf` Mathematica files. There is one `.wxf` file per colliding query (hence some of the `.tar.gz` files are empty because no collision occurs). These `.wxf` files contain the **valid** symbolic roots of the time of impact equation for the corresponding query. They can be opened in Mathematica using `roots = Import["path/to/file.wxf"];`.
 
 For example, the file `armadillo-rollers/roots/3ee_roots.tar` is empty because no collision occurs in `armadillo-rollers/queries/3ee.csv`.
 
-Another example is the file `armadillo-rollers/roots/7ee_roots.tar` which contains the following `.mx` files:
+Another example is the file `armadillo-rollers/roots/7ee_roots.tar` which contains the following `.wxf` files:
 ```
-7ee_q0_roots.mx
-7ee_q1_roots.mx
-7ee_q2_roots.mx
-7ee_q3_roots.mx
-7ee_q4_roots.mx
+7ee_q0_roots.wxf
+7ee_q1_roots.wxf
+7ee_q2_roots.wxf
+7ee_q3_roots.wxf
+7ee_q4_roots.wxf
 ```
 which contain the roots for the first five queries in `armadillo-rollers/queries/7ee.csv`.
 
-The contents of each `.mx` file is a list of symbolic roots. For example, the file `7ee_q0_roots.mx` contains the following:
+The contents of each `.wxf` file is a list of symbolic roots. For example, the file `7ee_q0_roots.wxf` contains the following:
 ```mathematica
 {{
     t -> Root[4378223306655280691504420565761527705374864 - 9544535075583226097920264671275704925744443*#1 + 5201746432656463262747693410436504932105911*#1^2 + 13645803353680734592999942957915267612*#1^3 & , 2, 0],
