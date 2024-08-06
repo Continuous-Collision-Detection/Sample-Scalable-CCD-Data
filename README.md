@@ -4,7 +4,7 @@
 
 This repository contains sample ground truth data for "Time of Impact Dataset for Continuous Collision Detection and a Scalable Conservative Algorithm."
 
-> :notebook: The full dataset will be released soon.
+> :rocket: The full dataset can be found [here](https://archive.nyu.edu/handle/2451/74508)
 
 ## Directory Structure
 
